@@ -1,0 +1,211 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kollektif', sans-serif;
+    font-size: 20px;
+    background: #EDF6F9;
+    max-height: 100%;
+}
+
+
+/*Nav bar which is fixed and is initially transparent but when screen is scolled the color changes*/
+/* .nav{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: background-color 0.5s ease-in-out;
+} */
+
+/*When screen is scrolled the color of the nav bar changes*/
+.navbar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* background: #1D1D1D; */
+    color: #83C5BE;
+}
+
+.navbar-title img{
+    margin: 0.5rem;
+    height: 65px;
+    width: 150px;
+}
+
+.navbar-link {
+    height: 100%;
+}
+
+.navbar-link ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-link li {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.navbar-link a{
+    font-size: 18px;
+    font-family: 'kollektif', sans-serif';
+}
+
+.navbar-link .button {
+    border: 2px solid #006D77;
+    border-radius:50px;
+    padding: 0px;
+    background-color: #006D77;
+    color: #FAFAFA;
+    /* height: 60px; */
+  }
+
+  .navbar-link .button a{
+    color: #FAFAFA;
+  }
+
+  .navbar-link .button a:hover{
+    color: #83C5BE;
+  }
+
+  .navbar-link .hbutton {
+    margin-right: 10px;
+    border: 2px solid #83C5BE;
+    border-radius: 50px;
+    padding: 0px;
+    /* background-color: #83C5BE; */
+    color: #FAFAFA;
+    /* height: 60px; */
+    
+  }
+
+  .navbar-link .hbutton:hover {
+    border: 2px solid #006D77;
+  }
+
+  .navbar-link .hbutton a{
+    color: #83C5BE;
+  }
+
+  .navbar-link .hbutton a:hover{
+    color: #006D77;
+  }
+
+.navbar-link li a {
+    display: block;
+    text-decoration: none;
+    color: #83C5BE;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.navbar-link li a:hover {
+    color: #006D77;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #006D77;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-link {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-link ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-link ul li {
+        text-align: center;
+    }
+
+    .navbar-link ul li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-link.active {
+        display: flex;
+    }
+}
+
+.services, .techstack, .contributors{
+    padding: 20px 20px;
+    border: #006D77;
+    border-radius: 50px;  
+}
+
+.services .headbar , .techstack .headbar, .contributors .headbar{
+    background: linear-gradient(30deg, #006D77 30%, #83C5BE 70%);
+    background-color: #006D77;
+    padding: 10px 0px;
+    color: #EDF6F9;
+    display: flex;
+    justify-content: center;
+}
+
+.try{
+    padding: 20px 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.try a{
+    text-decoration: none;
+    color: #EDF6F9
+}
+
+.try a:hover{
+    color: #006D77;
+}
+
+.techstack .content, .contributors .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    place-items: center;
+    padding-top: 20px;
+    
+}
+
+.techstack .content a{
+    margin-bottom: 20px;
+}
+
+
