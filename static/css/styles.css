@@ -26,7 +26,7 @@ body {
 /*When screen is scrolled the color of the nav bar changes*/
 .navbar {
     width: 100%;
-    max-width: 1330px;
+    max-width: 2000px;
     padding: 5px 10px 5px 10px;
     display: flex;
     justify-content: space-between;
