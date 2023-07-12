@@ -23,7 +23,7 @@ hr{
     margin-top: 150px;
 }
 
-.ci, .cd, .dev{
+.ci, .cd, .dev, .k8s{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ hr{
     margin-top: 25px;
 }
 
-.ci h3, .cd h3, .dev h3{
+.ci h3, .cd h3, .dev h3, .k8s h3{
     font-family: 'Josefin Sans';
     font-size: 25px;
     font-weight: 500;
@@ -42,9 +42,17 @@ hr{
 .ci-img, .cd-img{
     padding: 10px 10px;
 }
-.ci-img img , .cd-img img{
+.ci-img img , .cd-img img, .k8s-img img, .dev-img img{
     width: 100%;
     /* height: 300%; */
     /* border-radius: 50%; */
     margin-top: 25px;
+}
+
+.k8s span{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #006D77;
+    text-align: center;
 }
