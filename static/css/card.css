@@ -11,6 +11,10 @@
     background-color: #f2f2f2;
   } */
   
+  ::selection{
+    background: #006D77;
+    color: #FAFAFA;
+}
   .cards {
     width: 100%;
     display: flex;
