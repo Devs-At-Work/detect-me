@@ -243,7 +243,7 @@ body {
     color: #006D77;
 }
 
-.about, .services{
+.about, .services, .techstack, .contributors{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,3 +312,11 @@ body {
     height: 100px;
 
 } */
+
+.contributors .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 50px;
+}
