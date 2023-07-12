@@ -21,6 +21,9 @@ hr{
     color: #006D77;
     text-align: center;
     margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .ci, .cd, .dev, .k8s{
