@@ -1,6 +1,6 @@
-.custom-btn {
+.services .flask .sub .custom-btn {
     max-width: 300px;
-    width: 160px;
+    width: 200px;
     /* height: 40px; */
     color: #fff;
     border-radius: 5px;
@@ -18,22 +18,22 @@
     outline: none;
   }
   
-  .btn-7 {
-    background: linear-gradient(15deg, #006D77 30%, #83C5BE 70%);
+.services .flask .sub .btn-7 {
+    background: linear-gradient(15deg, #006D77 30%, #006D77 70%);
       line-height: 42px;
       padding: 0;
       border: none;
       margin: auto auto ;
     }
-    .btn-7 span {
+    .services .flask .sub .btn-7 span {
       position: relative;
       display: block;
       width: 100%;
       height: 100%;
       /* color: #000; */
     }
-    .btn-7:before,
-    .btn-7:after {
+    .services .flask .sub .btn-7:before,
+    .services .flask .sub .btn-7:after {
       position: absolute;
       content: "";
       right: 0;
@@ -46,27 +46,34 @@
        4px 4px 5px 0px rgba(0,0,0,.3);
       transition: all 0.3s ease;
     }
-    .btn-7:before{
+    .services .flask .sub .btn-7:before{
        height: 0%;
        width: 2px;
     }
-    .btn-7:after {
+    .services .flask .sub .btn-7:after {
       width: 0%;
       height: 2px;
     }
-    .btn-7:hover{
+    .services .flask .sub .btn-7:hover{
       color: #006D77;
       background: transparent;
+      
       /* border-radius: 20px;w */
     }
-    .btn-7:hover:before {
+    .services .flask .sub .btn-7 a:hover{
+      color: #006D77;
+      background: transparent;
+      
+      /* border-radius: 20px;w */
+    }
+    .services .flask .sub .btn-7:hover:before {
       height: 100%;
     }
-    .btn-7:hover:after {
+    .services .flask .sub .btn-7:hover:after {
       width: 100%;
     }
-    .btn-7 span:before,
-    .btn-7 span:after {
+    .services .flask .sub .btn-7 span:before,
+    .services .flask .sub .btn-7 span:after {
       position: absolute;
       content: "";
       left: 0;
@@ -79,20 +86,137 @@
        4px 4px 5px 0px rgba(0,0,0,.3);
       transition: all 0.3s ease;
     }
-    .btn-7 span:before {
+    .services .flask .sub .btn-7 span:before {
       width: 2px;
       height: 0%;
     }
-    .btn-7 span:after {
+    .services .flask .sub .btn-7 span:after {
       height: 2px;
       width: 0%;
     }
-    .btn-7 span:hover:before {
+    .services .flask .sub .btn-7 span:hover:before {
       height: 100%;
     }
-    .btn-7 span:hover:after {
+    .services .flask .sub .btn-7 span:hover:after {
       width: 100%;
     }
+
+    .services .flask .sub .btn-7 a{
+      text-decoration: none;
+      color: #EDF6F9;
+      font-family: 'Josefin Sans';
+      font-size: 16px;
+    }
+
+    .services .bot .sub .custom-btn {
+      max-width: 300px;
+      width: 200px;
+      /* height: 40px; */
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px ;
+      font-family: 'kollektif', sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      outline: none;
+    }
+    
+  .services .bot .sub .btn-7 {
+      background: linear-gradient(15deg, #006D77 30%, #006D77 70%);
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        margin: auto auto ;
+      }
+      .services .bot .sub .btn-7 span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        /* color: #000; */
+      }
+      .services .bot .sub .btn-7:before,
+      .services .bot .sub .btn-7:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #006D77;
+        box-shadow:
+         -7px -7px 20px 0px rgba(255,255,255,.9),
+         -4px -4px 5px 0px rgba(255,255,255,.9),
+         7px 7px 20px 0px rgba(0,0,0,.2),
+         4px 4px 5px 0px rgba(0,0,0,.3);
+        transition: all 0.3s ease;
+      }
+      .services .bot .sub .btn-7:before{
+         height: 0%;
+         width: 2px;
+      }
+      .services .bot .sub .btn-7:after {
+        width: 0%;
+        height: 2px;
+      }
+      .services .bot .sub .btn-7:hover{
+        color: #006D77;
+        background: transparent;
+        
+        /* border-radius: 20px;w */
+      }
+      .services .bot .sub .btn-7 a:hover{
+        color: #006D77;
+        background: transparent;
+        
+        /* border-radius: 20px;w */
+      }
+      .services .bot .sub .btn-7:hover:before {
+        height: 100%;
+      }
+      .services .bot .sub .btn-7:hover:after {
+        width: 100%;
+      }
+      .services .bot .sub .btn-7 span:before,
+      .services .bot .sub .btn-7 span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: #006D77;
+        box-shadow:
+         -7px -7px 20px 0px rgba(255,255,255,.9),
+         -4px -4px 5px 0px rgba(255,255,255,.9),
+         7px 7px 20px 0px rgba(0,0,0,.2),
+         4px 4px 5px 0px rgba(0,0,0,.3);
+        transition: all 0.3s ease;
+      }
+      .services .bot .sub .btn-7 span:before {
+        width: 2px;
+        height: 0%;
+      }
+      .services .bot .sub .btn-7 span:after {
+        height: 2px;
+        width: 0%;
+      }
+      .services .bot .sub .btn-7 span:hover:before {
+        height: 100%;
+      }
+      .services .bot .sub .btn-7 span:hover:after {
+        width: 100%;
+      }
+  
+      .services .bot .sub .btn-7 a{
+        text-decoration: none;
+        color: #EDF6F9;
+        font-family: 'Josefin Sans';
+        font-size: 16px;
+      }
 
 
     .underlined-a {
