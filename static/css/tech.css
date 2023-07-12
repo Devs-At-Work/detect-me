@@ -1,0 +1,23 @@
+.techstack .content .tcard{
+    background-color: #d7e4e9;
+    /* padding: 55px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.techstack .content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.techstack .content::before {
+    content: "";
+    grid-column: 1 / span 5;
+  }
