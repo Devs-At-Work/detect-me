@@ -47,7 +47,7 @@ hr{
     text-align: center;
 }
 
-.ci-img, .cd-img{
+.ci-img, .cd-img, .k8s-img, .dev-img{
     padding: 10px 10px;
 }
 .ci-img img , .cd-img img, .k8s-img img, .dev-img img{
